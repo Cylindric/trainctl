@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools_scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trainctl"
+requires-python = ">=3.8"
+dynamic = ["version"]
+dependencies = [
+    # Add runtime dependencies here
+    #rpi_ws281x 
+    #adafruit-circuitpython-neopixel
+    #adafruit-blinka
+]
+
+# Enables the usage of setuptools_scm
+[tool.setuptools_scm]
