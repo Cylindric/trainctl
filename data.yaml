@@ -1,0 +1,96 @@
+turnouts:
+  - name: 1
+    position: {x: 13, y: 15}
+    inblock: east_slow_block
+    throughblock: mid_slow_block
+    outblock: west_slow_block
+blocks:
+  - name: west_fast_block
+    colour: 3
+    position: {x: 12, y: 15}
+    leds:
+      - {x: 0, y: 0}
+      - {x: -1, y: 0}
+      - {x: -2, y: 0}
+      - {x: -3, y: 0}
+      - {x: -4, y: 0}
+      - {x: -5, y: 0}
+      - {x: -6, y: 0}
+      - {x: -7, y: 0}
+      - {x: -8, y: 0}
+      - {x: -9, y: 0}
+      - {x: -10, y: 0}
+      - {x: -11, y: 0}
+      - {x: -11, y: -1}
+      - {x: -11, y: -1}
+      - {x: -11, y: -2}
+      - {x: -11, y: -3}
+      - {x: -11, y: -4}
+      - {x: -11, y: -5}
+      - {x: -11, y: -6}
+      - {x: -11, y: -7}
+      - {x: -11, y: -8}
+      - {x: -11, y: -9}
+      - {x: -11, y: -10}
+      - {x: -11, y: -11}
+      - {x: -10, y: -11}
+      - {x: -9, y: -11}
+      - {x: -8, y: -11}
+      - {x: -7, y: -11}
+      - {x: -6, y: -11}
+      - {x: -5, y: -11}
+  - name: west_slow_block
+    colour: 2
+    position: {x: 8, y: 13}
+    leds:
+      - {x: 0, y: 0}
+      - {x: -1, y: 0}
+      - {x: -2, y: 0}
+      - {x: -3, y: 0}
+      - {x: -4, y: 0}
+      - {x: -5, y: 0}
+      - {x: -5, y: -1}
+      - {x: -5, y: -2}
+      - {x: -5, y: -3}
+      - {x: -5, y: -4}
+      - {x: -5, y: -5}
+      - {x: -5, y: -6}
+      - {x: -5, y: -7}
+      - {x: -4, y: -7}
+      - {x: -3, y: -7}
+      - {x: -2, y: -7}
+      - {x: -1, y: -7}
+      - {x: 0, y: -7}
+      - {x: 1, y: -7}
+      - {x: 2, y: -7}
+      - {x: 3, y: -7}
+  - name: east_slow_block
+    colour: 2
+    position: {x: 13, y: 6}
+    leds:
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      - {x: 2, y: 0}
+      - {x: 3, y: 0}
+      - {x: 4, y: 0}
+      - {x: 5, y: 0}
+      - {x: 6, y: 0}
+      - {x: 6, y: 1}
+      - {x: 6, y: 2}
+      - {x: 6, y: 3}
+      - {x: 6, y: 4}
+      - {x: 6, y: 5}
+      - {x: 6, y: 6}
+      - {x: 6, y: 7}
+      - {x: 5, y: 7}
+      - {x: 4, y: 7}
+      - {x: 3, y: 7}
+      - {x: 2, y: 7}
+      - {x: 1, y: 7}
+  - name: mid_slow_block
+    colour: 2
+    position: {x: 12, y: 13}
+    leds:
+      - {x: 0, y: 0}
+      - {x: -1, y: 0}
+      - {x: -2, y: 0}

@@ -1,5 +1,5 @@
 """This module contains example tests."""
-from trainctl.trainctl import Trainctl
+from trainctl.test import Trainctl
 
 
 def test_my_function() -> None:
